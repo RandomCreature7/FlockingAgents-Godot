@@ -1,0 +1,20 @@
+[configuration]
+
+entry_symbol = "flocking_agents_init"
+compatibility_minimum = "4.7"
+reloadable = true
+
+[libraries]
+
+macos.debug = "./libFlockingAgents.macos.template_debug.dylib"
+macos.release = "./libFlockingAgents.macos.template_release.dylib"
+windows.debug.x86_32 = "./FlockingAgents.windows.template_debug.x86_32.dll"
+windows.release.x86_32 = "./FlockingAgents.windows.template_release.x86_32.dll"
+windows.debug.x86_64 = "./FlockingAgents.windows.template_debug.x86_64.dll"
+windows.release.x86_64 = "./FlockingAgents.windows.template_release.x86_64.dll"
+linux.debug.x86_64 = "./libFlockingAgents.linux.template_debug.x86_64.so"
+linux.release.x86_64 = "./libFlockingAgents.linux.template_release.x86_64.so"
+linux.debug.arm64 = "./libFlockingAgents.linux.template_debug.arm64.so"
+linux.release.arm64 = "./libFlockingAgents.linux.template_release.arm64.so"
+linux.debug.rv64 = "./libFlockingAgents.linux.template_debug.rv64.so"
+linux.release.rv64 = "./libFlockingAgents.linux.template_release.rv64.so"
